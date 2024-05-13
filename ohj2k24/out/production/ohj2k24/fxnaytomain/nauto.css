@@ -1,0 +1,7 @@
+.virhe {
+    -fx-background-color: red;
+}
+
+.normaali {
+    -fx-background-color: white;
+}

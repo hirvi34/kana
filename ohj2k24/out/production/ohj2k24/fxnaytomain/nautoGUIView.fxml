@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane prefHeight="147.0" prefWidth="337.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxnaytomain.nautoGUIController">
+   <center>
+      <BorderPane prefHeight="97.0" prefWidth="13.0" BorderPane.alignment="CENTER">
+         <center>
+            <TextField fx:id="salasana" prefHeight="25.0" prefWidth="167.0" BorderPane.alignment="CENTER" />
+         </center>
+         <top>
+            <Label prefHeight="35.0" prefWidth="61.0" text="SALASANA" BorderPane.alignment="CENTER" />
+         </top>
+         <left>
+            <Label text="                           " BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Label text="                           " BorderPane.alignment="CENTER" />
+         </right></BorderPane>
+   </center>
+   <bottom>
+      <Button mnemonicParsing="false" onAction="#login" prefHeight="25.0" prefWidth="53.0" text="OK" BorderPane.alignment="BOTTOM_RIGHT" />
+   </bottom>
+</BorderPane>
